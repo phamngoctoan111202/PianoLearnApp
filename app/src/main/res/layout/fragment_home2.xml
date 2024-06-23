@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPiano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Piano"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/tvGuitar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Guitar"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDrumset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Drumset"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/tvSaxophone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Saxophone"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/tvRecordList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Record list"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

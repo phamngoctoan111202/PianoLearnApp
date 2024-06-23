@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "64745606373",
+    "project_id": "base-ads-a6f56",
+    "storage_bucket": "base-ads-a6f56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64745606373:android:874f2adc49bf20c498980c",
+        "android_client_info": {
+          "package_name": "com.noatnoat.pianoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF6nf-WkakiYY_TLQxAD_DQkw4DiAAT0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

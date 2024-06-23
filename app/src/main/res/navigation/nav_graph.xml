@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.noatnoat.pianoapp.splash.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_introFragment"
+            app:destination="@id/introFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_permissionFragment"
+            app:destination="@id/permissionFragment" />
+        <action
+            android:id="@+id/actionSplashToLFO"
+            app:destination="@id/LFOFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.noatnoat.pianoapp.ui.fragments.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_homeFragment2"
+            app:destination="@id/homeFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.noatnoat.pianoapp.splash.IntroFragment"
+        android:label="IntroFragment"
+        tools:layout="@layout/fragment_intro">
+        <action
+            android:id="@+id/action_introFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_introFragment_to_permissionFragment"
+            app:destination="@id/permissionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/permissionFragment"
+        android:name="com.noatnoat.pianoapp.splash.PermissionFragment"
+        android:label="PermissionFragment"
+        tools:layout="@layout/fragment_permission" >
+        <action
+            android:id="@+id/action_permissionFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/LFOFragment"
+        android:name="com.noatnoat.pianoapp.admob.lfo.LFOFragment"
+        android:label="LFOFragment">
+        <action
+            android:id="@+id/actionLfoToIntro"
+            app:destination="@id/introFragment" />
+        <action
+            android:id="@+id/actionLfoToLFOSelect"
+            app:destination="@id/LFOSelectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/LFOSelectFragment"
+        android:name="com.noatnoat.pianoapp.admob.lfo.LFOSelectFragment"
+        android:label="LFOSelectFragment">
+        <action
+            android:id="@+id/actionLFOSelectToIntro"
+            app:destination="@id/introFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.noatnoat.pianoapp.ui.fragments.HomeFragment2"
+        android:label="HomeFragment2" >
+        <action
+            android:id="@+id/action_homeFragment2_to_pianoFragment"
+            app:destination="@id/pianoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pianoFragment"
+        android:name="com.noatnoat.pianoapp.ui.fragments.PianoFragment"
+        android:label="PianoFragment" />
+
+
+</navigation>
