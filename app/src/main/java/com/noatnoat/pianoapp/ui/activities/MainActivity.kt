@@ -119,12 +119,10 @@ class MainActivity : AppCompatActivity() {
         window.navigationBarColor = Color.WHITE
         setUpNavController()
         setUpView()
-
         decorView = getWindow().getDecorView();
 
         initViewExitApp()
 
-        // request native exit app
         this@MainActivity.let {
             NativeUtils.requestNativeExit(it, getString(R.string.NATIVE_GG_EXIT)) {
                 true

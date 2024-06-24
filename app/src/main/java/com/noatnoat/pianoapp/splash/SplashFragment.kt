@@ -29,7 +29,7 @@ import com.noatnoat.pianoapp.checkPermission
 import com.noatnoat.pianoapp.databinding.FragmentSplashBinding
 import com.noatnoat.pianoapp.admob.lfo.NativeUtils
 import com.noatnoat.pianoapp.utils.Helper
-import com.horizon.wifimanager.ex.findNavControllerSafely
+import com.noatnoat.pianoapp.extensions.findNavControllerSafely
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 import kotlin.system.exitProcess

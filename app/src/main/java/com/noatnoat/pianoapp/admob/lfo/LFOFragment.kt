@@ -11,7 +11,7 @@ import com.noatnoat.pianoapp.admob.helper.adnative.NativeAdConfig
 import com.noatnoat.pianoapp.admob.helper.adnative.NativeAdHelper
 import com.noatnoat.pianoapp.admob.helper.adnative.params.NativeAdParam
 import com.noatnoat.pianoapp.admob.listener.NativeAdCallback
-import com.horizon.wifimanager.ex.findNavControllerSafely
+import com.noatnoat.pianoapp.extensions.findNavControllerSafely
 import com.noatnoat.pianoapp.R
 import com.noatnoat.pianoapp.fragment.lfo.BaseLFOFragment
 

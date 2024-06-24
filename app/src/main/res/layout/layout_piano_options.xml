@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#272727"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/test_back_btn"/>
+
+    <ImageView
+        android:id="@+id/style_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/test_style_btn"/>
+
+    <ImageView
+        android:id="@+id/music_type_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/test_music_type_btn"/>
+
+    <ImageView
+        android:id="@+id/import_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/test_import_btn"/>
+
+
+    <ImageView
+        android:id="@+id/record_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/test_record_btn"/>
+
+    <Spinner
+        android:id="@+id/song_spinner"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:id="@+id/play_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/test_play_btn"/>
+
+    <ImageView
+        android:id="@+id/music_hide_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/test_music_hide_btn"/>
+
+    <ImageView
+        android:id="@+id/two_peoples_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/test_two_peoples_btn"/>
+
+    <ImageView
+        android:id="@+id/two_keyboard_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/test_2keyboard_btn"/>
+
+    <ImageView
+        android:id="@+id/setting_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/test_setting_btn"/>
+</LinearLayout>

@@ -91,8 +91,31 @@
     </fragment>
     <fragment
         android:id="@+id/pianoFragment"
-        android:name="com.noatnoat.pianoapp.ui.fragments.PianoFragment"
-        android:label="PianoFragment" />
+        android:name="com.noatnoat.pianoapp.ui.fragments.DefaultPianoFragment"
+        android:label="PianoFragment" >
+        <action
+            android:id="@+id/action_pianoFragment_to_twoPlayerPianoFragment"
+            app:destination="@id/twoPlayerPianoFragment" />
+        <action
+            android:id="@+id/action_pianoFragment_to_twoKeyboardPianoFragment"
+            app:destination="@id/twoKeyboardPianoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/twoPlayerPianoFragment"
+        android:name="com.noatnoat.pianoapp.ui.fragments.TwoPlayerPianoFragment"
+        android:label="TwoPlayerPianoFragment" >
+        <action
+            android:id="@+id/action_twoPlayerPianoFragment_to_twoKeyboardPianoFragment"
+            app:destination="@id/twoKeyboardPianoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/twoKeyboardPianoFragment"
+        android:name="com.noatnoat.pianoapp.ui.fragments.TwoKeyboardPianoFragment"
+        android:label="TwoKeyboardPianoFragment" >
+        <action
+            android:id="@+id/action_twoKeyboardPianoFragment_to_twoPlayerPianoFragment"
+            app:destination="@id/twoPlayerPianoFragment" />
+    </fragment>
 
 
 </navigation>
