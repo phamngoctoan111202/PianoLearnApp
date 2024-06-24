@@ -12,19 +12,12 @@
 
 
     <style name="Base.Theme.PianoApp" parent="Theme.AppCompat.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
     </style>
-
     <style name="Theme.PianoApp" parent="Base.Theme.PianoApp" />
 
 
-
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
 
     <style name="AppTheme.AdAttribution">
         <item name="android:textSize">10.0sp</item>
