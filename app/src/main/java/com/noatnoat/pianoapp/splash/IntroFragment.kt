@@ -115,15 +115,15 @@ class IntroFragment : Fragment() {
         val introList = listOf(
             IntroContent(
                 getString(R.string.intro_1),
-                R.mipmap.ic_launcher
+                R.drawable.img_intro
             ),
             IntroContent(
                 getString(R.string.intro_2),
-                R.mipmap.ic_launcher
+                R.drawable.img_intro
             ),
             IntroContent(
                 getString(R.string.intro_3),
-                R.mipmap.ic_launcher
+                R.drawable.img_intro
             )
         )
         var count = 1

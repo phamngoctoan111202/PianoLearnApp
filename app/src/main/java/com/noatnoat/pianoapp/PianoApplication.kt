@@ -5,6 +5,7 @@ import com.araujo.jordan.excuseme.view.InvisibleActivity
 import android.content.Context
 import android.content.res.Resources
 import android.os.Bundle
+import android.widget.Toolbar
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ProcessLifecycleOwner
 import androidx.multidex.MultiDexApplication
@@ -82,7 +83,8 @@ class PianoApplication : MultiDexApplication() {
         FirebaseApp.initializeApp(this)
         configAds()
         appResumeAdHelper = initAppOpenAd()
-        
+
+
         context = this
         val locales: List<Locale> = listOf(
             Locale.forLanguageTag("en"), // English

@@ -17,9 +17,9 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         tools:replace="android:fullBackupContent"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_splash_gradient"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/ic_splash_gradient"
         android:supportsRtl="true"
         android:theme="@style/Theme.PianoApp"
         tools:targetApi="31" >

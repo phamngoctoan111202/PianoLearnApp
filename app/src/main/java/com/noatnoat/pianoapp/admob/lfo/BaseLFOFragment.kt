@@ -1,4 +1,4 @@
-package com.noatnoat.pianoapp.fragment.lfo
+package com.noatnoat.pianoapp.admob.lfo
 
 import android.app.Activity
 import android.content.Context
@@ -10,10 +10,8 @@ import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.google.firebase.analytics.FirebaseAnalytics
-import com.noatnoat.pianoapp.admob.lfo.LanguageUtils
 import com.noatnoat.pianoapp.R
 import com.noatnoat.pianoapp.databinding.FragmentLfoBinding
-import com.noatnoat.pianoapp.admob.lfo.LFOAdapter
 import com.noatnoat.pianoapp.utils.Helper
 
 /**

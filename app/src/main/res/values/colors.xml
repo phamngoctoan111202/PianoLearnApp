@@ -14,4 +14,7 @@
     <color name="colorAccent">#800080</color>
     <color name="color_background">#FFFFFF</color>
     <color name="button_disabled">#8C8C92</color>
+
+    <color name="text_color">#000000</color>
+    <color name="text_color_secondary">#5B4BBC</color>
 </resources>

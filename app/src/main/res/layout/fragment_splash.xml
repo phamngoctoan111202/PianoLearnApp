@@ -12,7 +12,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="112dp"
-        android:background="@drawable/gradient"
+        android:background="@drawable/ic_splash_gradient"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
