@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path
+        name="external_files"
+        path="." />
+    <root-path
+        name="sdcard1"
+        path="." />
+    <external-files-path
+        name="external_files"
+        path="." />
+    <external-path
+        name="my_images"
+        path="Android/data/com.noatnoat.pianoapp/files/Pictures" />
+    <external-path
+        name="my_videos"
+        path="Android/data/com.noatnoat.pianoapp/files/Videos" />
+</paths>

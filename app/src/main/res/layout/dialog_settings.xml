@@ -1,0 +1,75 @@
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:padding="34dp"
+        android:background="@color/dialog_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_settings"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_bold"
+            android:gravity="center"
+            android:text="Setting"
+            android:textColor="@color/text_color"
+            android:textSize="26dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ic_close"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_close"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txt_settings" />
+
+        <TextView
+            android:id="@+id/txt_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speed"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_settings" />
+
+        <SeekBar
+            android:id="@+id/sb_speed"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/custom_seekbar_progress"
+            android:thumb="@drawable/custom_seekbar_thumb"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_speed"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txt_volume" />
+
+        <TextView
+            android:id="@+id/txt_volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volume"
+            android:textColor="@color/text_color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_speed" />
+
+        <SeekBar
+            android:id="@+id/sb_volume"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/custom_seekbar_progress"
+            android:thumb="@drawable/custom_seekbar_thumb"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_volume"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txt_volume" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

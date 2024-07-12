@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/color_background">
+
+        <ImageView
+            android:id="@+id/saxophone_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_saxophone2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/btn_saxophone_1"
+            android:layout_width="107dp"
+            android:layout_height="116dp"
+            android:src="@drawable/saxophone_btn"
+            app:layout_constraintBottom_toBottomOf="@+id/saxophone_1"
+            app:layout_constraintEnd_toEndOf="@+id/saxophone_1"
+            app:layout_constraintHorizontal_bias="0.693"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.43" />
+
+        <ImageView
+            android:id="@+id/btn_saxophone_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/saxophone_btn"
+            app:layout_constraintBottom_toBottomOf="@+id/saxophone_1"
+            app:layout_constraintEnd_toEndOf="@+id/saxophone_1"
+            app:layout_constraintHorizontal_bias="0.773"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.366" />
+
+
+        <ImageView
+            android:id="@+id/btn_saxophone_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/saxophone_btn"
+            app:layout_constraintBottom_toBottomOf="@+id/saxophone_1"
+            app:layout_constraintEnd_toEndOf="@+id/saxophone_1"
+            app:layout_constraintHorizontal_bias="0.573"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.486" />
+
+
+        <ImageView
+            android:id="@+id/btn_saxophone_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/saxophone_btn"
+            app:layout_constraintBottom_toBottomOf="@+id/saxophone_1"
+            app:layout_constraintEnd_toEndOf="@+id/saxophone_1"
+            app:layout_constraintHorizontal_bias="0.354"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.366" />
+
+        <ImageView
+            android:id="@+id/btn_saxophone_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/saxophone_btn"
+            app:layout_constraintBottom_toBottomOf="@+id/saxophone_1"
+            app:layout_constraintEnd_toEndOf="@+id/saxophone_1"
+            app:layout_constraintHorizontal_bias="0.057"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.617" />
+
+        <ImageView
+            android:id="@+id/btn_saxophone_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/saxophone_btn"
+            app:layout_constraintBottom_toBottomOf="@+id/saxophone_1"
+            app:layout_constraintEnd_toEndOf="@+id/saxophone_1"
+            app:layout_constraintHorizontal_bias="0.174"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.529" />
+
+        <ImageView
+            android:id="@+id/btn_saxophone_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/saxophone_btn"
+            app:layout_constraintBottom_toBottomOf="@+id/saxophone_1"
+            app:layout_constraintEnd_toEndOf="@+id/saxophone_1"
+            app:layout_constraintHorizontal_bias="0.256"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.442" />
+
+        <ImageView
+            android:id="@+id/btn_saxophone_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/saxophone_btn"
+            app:layout_constraintBottom_toBottomOf="@+id/saxophone_1"
+            app:layout_constraintEnd_toEndOf="@+id/saxophone_1"
+            app:layout_constraintHorizontal_bias="0.131"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.697" />
+
+        <ImageView
+            android:id="@+id/btn_saxophone_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/saxophone_btn"
+            app:layout_constraintBottom_toBottomOf="@+id/saxophone_1"
+            app:layout_constraintEnd_toEndOf="@+id/saxophone_1"
+            app:layout_constraintHorizontal_bias="0.256"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.644" />
+
+        <ImageView
+            android:id="@+id/btn_saxophone_10"
+            android:layout_width="108dp"
+            android:layout_height="107dp"
+            android:src="@drawable/saxophone_btn"
+            app:layout_constraintBottom_toBottomOf="@+id/saxophone_1"
+            app:layout_constraintEnd_toEndOf="@+id/saxophone_1"
+            app:layout_constraintHorizontal_bias="0.374"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.603" />
+
+        <ImageView
+            android:id="@+id/btn_saxophone_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/saxophone_btn"
+            app:layout_constraintBottom_toBottomOf="@+id/saxophone_1"
+            app:layout_constraintEnd_toEndOf="@+id/saxophone_1"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.551" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

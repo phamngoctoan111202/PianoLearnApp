@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/img_home_bgr"
+        android:padding="16dp"
+        tools:context=".ui.RecordFragment">
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_back" />
+
+        <ImageView
+            android:id="@+id/share_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toStartOf="@+id/download_btn"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingEnd="16dp"
+            app:srcCompat="@drawable/ic_share" />
+
+        <ImageView
+            android:id="@+id/download_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_download" />
+
+        <ImageView
+            android:id="@+id/img_record_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_record_detail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="50dp"
+            app:layout_constraintTop_toBottomOf="@+id/back_btn" />
+
+        <TextView
+            android:id="@+id/title_record_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/img_record_detail"
+            android:text="Simple Record 01"
+            android:textColor="@color/text_color"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="34dp"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/time_txt_record_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/title_record_detail"
+            android:text="25/06/21"
+            android:textColor="@color/text_color"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <SeekBar
+            android:id="@+id/seekbar_record_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/custom_seekbar_progress"
+            android:thumb="@drawable/custom_seekbar_thumb"
+            app:layout_constraintTop_toBottomOf="@+id/time_txt_record_detail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/seekbar_record_detail">
+
+            <ImageView
+                android:id="@+id/previous_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:src="@drawable/img_previous_record_detail" />
+
+            <ImageView
+                android:id="@+id/pause_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:background="@drawable/img_play_bgr"
+                android:src="@drawable/ic_pause" />
+
+            <ImageView
+                android:id="@+id/play_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:src="@drawable/img_next_record_detail" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

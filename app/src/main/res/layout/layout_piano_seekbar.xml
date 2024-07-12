@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_weight="1"
+    android:background="@color/color_background_secondary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/button_minus"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/ic_minus_piano"
+        android:layout_margin="8dp"
+        android:elevation="16dp"
+        android:scaleType="center"
+        android:padding="10dp"/>
+
+    <ImageButton
+        android:id="@+id/button_add"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/ic_add_piano"
+        android:layout_margin="8dp"
+        android:elevation="16dp"
+        android:scaleType="center"
+        android:padding="10dp"/>
+
+    <ImageButton
+        android:id="@+id/button_arrow_left"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/ic_arrow_left"
+        android:layout_margin="8dp"
+        android:elevation="16dp"
+        android:scaleType="center"
+        android:padding="10dp"/>
+
+    <com.noatnoat.pianoapp.ui.views.CustomSeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:max="100"
+        android:layout_margin="8dp"
+        android:progress="0"
+        android:elevation="16dp"
+        android:background="@drawable/scrollbgm"
+        android:thumb="@drawable/seekbar_thumb"
+        />
+
+    <ImageButton
+        android:id="@+id/button_arrow_right"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/ic_arrow_right"
+        android:layout_margin="8dp"
+        android:elevation="16dp"
+        android:scaleType="center"
+        android:padding="10dp"/>
+
+    <ImageButton
+        android:id="@+id/button_zoom_out"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/ic_zoom_out"
+        android:layout_margin="8dp"
+        android:elevation="16dp"
+        android:scaleType="center"
+        android:padding="10dp"/>
+</LinearLayout>

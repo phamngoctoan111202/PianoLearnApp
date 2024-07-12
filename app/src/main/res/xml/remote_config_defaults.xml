@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaults>
+
+  <entry>
+    <key>language_reopen</key>
+    <value>true</value>
+  </entry>
+  <entry>
+    <key>onboarding_reopen</key>
+    <value>true</value>
+  </entry>
+
+  <entry>
+    <key>config_inter_splash</key>
+    <value>true</value>
+  </entry>
+
+  <entry>
+    <key>config_appopen_resume</key>
+    <value>true</value>
+  </entry>
+
+  <entry>
+    <key>config_native_language</key>
+    <value>true</value>
+  </entry>
+
+  <entry>
+    <key>config_native_onboarding</key>
+    <value>true</value>
+  </entry>
+
+  <entry>
+    <key>config_native_permission</key>
+    <value>true</value>
+  </entry>
+
+  <entry>
+    <key>config_native_exit</key>
+    <value>true</value>
+  </entry>
+
+  <entry>
+    <key>config_inter_home</key>
+    <value>true</value>
+  </entry>
+
+  <entry>
+    <key>config_banner_collap_home</key>
+    <value>true</value>
+  </entry>
+
+  <entry>
+    <key>config_banner</key>
+    <value>true</value>
+  </entry>
+  <entry>
+    <key>config_banner_splash</key>
+    <value>true</value>
+  </entry>
+
+  <entry>
+    <key>enable_ump</key>
+    <value>true</value>
+  </entry>
+
+  <entry>
+    <key>LFO_1_High_floor</key>
+    <value>true</value>
+  </entry>
+
+  <entry>
+    <key>LFO_2_High_floor</key>
+    <value>true</value>
+  </entry>
+
+</defaults>

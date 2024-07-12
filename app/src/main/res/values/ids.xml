@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="file_provider" translatable="false">com.noatnoat.pianoapp.provider</string>
+    <string name="BASE64" translatable="false"></string>
+    <string name="ID_SUBSCRIPTION" translatable="false"></string>
+    <string name="PLAY_STORE_APP_URL" translatable="false">https://play.google.com/store/apps/details?id=</string>
+    <string name="PLAY_STORE_DEV_URL" translatable="false">http://play.google.com/store/search?q=pub:</string>
+    <string name="EMAIL_DEVELOPER" translatable="false"></string>
+    <string name="LINK_POLICY" translatable="false"></string>
+
+
+    <string name="ADJUST_APP_TOKEN" translatable="false">aaaaaaaaa</string>
+    <string name="facebook_app_id" translatable="false">aaaaaaaaa</string>
+    <string name="facebook_client_token" translatable="false">aaaaaaaaa</string>
+
+
+    <string name="ID_PUBLISHER" translatable="false">pub-3940256099942544</string>
+    <string name="APP_ID" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string name="NATIVE_GG_LANGUAGE" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="NATIVE_GG_LANGUAGE_S2" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="NATIVE_GG_LANGUAGE_S2_2F" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="NATIVE_GG_LANGUAGE_2F" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="NATIVE_GG_ONBOARDING" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="NATIVE_GG_PERMISSION" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="NATIVE_GG_EXIT" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="NATIVE_HOME" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+
+    <string name="INTER_GG_SPLASH" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="INTER_GG_HOME" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="BANNER_GG" translatable="false">ca-app-pub-3940256099942544/2014213617</string>
+    <string name="BANNER_GG_SPLASH" translatable="false">ca-app-pub-3940256099942544/2014213617</string>
+    <string name="BANNER_GG_COLLAP" translatable="false">ca-app-pub-3940256099942544/2014213617</string>
+
+    <string name="INTER_APP_OPEN" translatable="false">ca-app-pub-3940256099942544/9257395921</string>
+</resources>
+

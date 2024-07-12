@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Learn Piano</string>
+
+    <string name="language">Language</string>
+    <string name="splash">This action can contain ads…</string>
+    <string name="next">Next</string>
+    <string name="get_started">Get Started</string>
+    <string name="permission_title">Our app needs permission to give you the best experience</string>
+    <string name="camera_permission">Permission to use camera</string>
+    <string name="storage_permission">Write storage permission</string>
+    <string name="continue_">Continue</string>
+    <string name="permission_">Permission</string>
+    <string name="intro_1">Instructions on how to play notes to play famous songs</string>
+    <string name="intro_2">Import library songs to choose your own pace for easy learning</string>
+    <string name="intro_3">Musical instruments suitable for all ages, no previous knowledge required.</string>
+    <string name="exit">Exit</string>
+    <string name="exit_app">Exit app</string>
+    <string name="stay_appp">Stay app</string>
+    <string name="do_you_want_to_exit_app">Do you really want to exit app?</string>
+    <string name="wait_video">Please wait, the Ad is loaded …</string>
+    <string name="load_video_fail">Loading video failed, please try again later</string>
+    <string name="check_connect_internet">Check internet connection</string>
+    <string name="require_permission_title">Require Permission</string>
+    <string name="require_permission_message">If you want to use this app, you need to allow them in the settings.</string>
+    <string name="require_permission_goto_setting">Go to setting</string>
+    <string name="require_permission_cancel">Cancel</string>
+    <string name="dialog_reward_watch">Watch ad</string>
+
+    <string name="home">Home</string>
+    <string name="my_record">My Record</string>
+    <string name="setting">Setting</string>
+    <string name="playlist">Playlist</string>
+
+
+</resources>

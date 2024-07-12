@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/img_home_bgr"
+    android:paddingTop="35dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvPermissionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Permission Request"
+        android:textColor="@color/text_color"
+        android:fontFamily="@font/nunito_regular"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/img_permission"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPermissionTitle" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/nunito_regular"
+        android:text="Learn Piano requires permission to use the camera, precise location."
+        android:textColor="@color/text_color"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView2" />
+
+    <LinearLayout
+        android:id="@+id/layoutAudioFiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bgr_transparent_corner"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/text1">
+
+        <TextView
+            android:id="@+id/allowAccessAudioFiles"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/text_color"
+            android:text="Allow Access to Audio Files" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchAudioFiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:trackTint="@drawable/switch_track_color"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutMicrophone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:background="@drawable/bgr_transparent_corner"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/layoutAudioFiles">
+
+        <TextView
+            android:id="@+id/allowAccessMicrophone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/text_color"
+            android:text="Allow Access to Microphone" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchMicrophone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:trackTint="@drawable/switch_track_color"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutPermission"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@id/layoutRecord"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </LinearLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="#F7F7F7"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toTopOf="@id/layoutStorage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutStorage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="#F7F7F7"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toTopOf="@id/btn_continue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@color/blue"
+        android:textFontWeight="600"
+        android:textSize="16sp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutMicrophone" />
+
+    <FrameLayout
+        android:id="@+id/flNativeAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <include
+            android:id="@+id/includeShimmer"
+            layout="@layout/shimmer_native_language_medium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

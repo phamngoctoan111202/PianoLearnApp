@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background (incomplete part) -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="1dp" />
+            <solid android:color="@color/grey" />
+            <size android:height="2dp" /> <!-- Thinner line -->
+        </shape>
+    </item>
+    <!-- Secondary Progress (optional, usually same as background or transparent) -->
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="1dp" />
+                <solid android:color="@color/grey" />
+                <size android:height="2dp" /> <!-- Thinner line -->
+            </shape>
+        </clip>
+    </item>
+    <!-- Progress (completed part) -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="1dp" />
+                <solid android:color="@color/blue" />
+                <size android:height="2dp" /> <!-- Thinner line -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>

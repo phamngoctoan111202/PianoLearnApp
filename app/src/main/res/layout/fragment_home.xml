@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/img_home_bgr">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/homeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/img_learn_piano"
+            android:drawablePadding="10dp"
+            android:padding="8dp"
+            app:layout_constraintStart_toStartOf="@id/ivPiano"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/more_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/ic_info"
+            android:drawablePadding="10dp"
+            android:padding="8dp"
+            app:layout_constraintEnd_toStartOf="@id/setting"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/ic_setting"
+            android:drawablePadding="10dp"
+            android:padding="8dp"
+            app:layout_constraintEnd_toEndOf="@id/ivPiano"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/white" />
+
+
+        <ImageView
+            android:id="@+id/ivPiano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/img_piano"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/homeTitle" />
+
+        <ImageView
+            android:id="@+id/ivGuitar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_guitar"
+            app:layout_constraintStart_toStartOf="@id/ivPiano"
+            app:layout_constraintBottom_toBottomOf="@id/ivDrumset" />
+
+        <ImageView
+            android:id="@+id/ivDrumset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_drumset"
+            app:layout_constraintEnd_toEndOf="@id/ivPiano"
+            app:layout_constraintTop_toBottomOf="@id/ivPiano" />
+
+        <ImageView
+            android:id="@+id/ivSaxophone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/img_saxophone"
+            app:layout_constraintStart_toStartOf="@id/ivPiano"
+            app:layout_constraintTop_toBottomOf="@id/ivGuitar" />
+
+        <ImageView
+            android:id="@+id/ivRecordList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_record_list"
+            app:layout_constraintEnd_toEndOf="@id/ivPiano"
+            app:layout_constraintTop_toBottomOf="@id/ivGuitar" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

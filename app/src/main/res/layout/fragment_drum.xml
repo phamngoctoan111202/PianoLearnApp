@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/img_drum_bgr">
+
+        <ImageView
+            android:id="@+id/drum_1_1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/img_drum_crash"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/drum_1_2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="188dp"
+            android:src="@drawable/img_drum_crash"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/drum_1_1" />
+
+        <ImageView
+            android:id="@+id/drum_2_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/img_drum_crash"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/drum_2_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="124dp"
+            android:src="@drawable/img_drum_crash"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/drum_2_1" />
+
+        <ImageView
+            android:id="@+id/drum_3_1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="68dp"
+            android:src="@drawable/img_drum_crash"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/drum_3_2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/img_drum_crash"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/drum_3_1" />
+
+        <ImageView
+            android:id="@+id/drum_4_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="116dp"
+            android:src="@drawable/img_drum_crash"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/drum_3_1" />
+
+
+        <ImageView
+            android:id="@+id/drum_4_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="24dp"
+            android:src="@drawable/img_drum_crash"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/drum_4_1" />
+
+        <ImageView
+            android:id="@+id/drum_5_1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="184dp"
+            android:src="@drawable/img_drum_crash"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/drum_3_1" />
+
+        <ImageView
+            android:id="@+id/drum_5_2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/img_drum_crash"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/drum_5_1" />
+
+        <ImageView
+            android:id="@+id/drum_bass_1_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="160dp"
+            android:src="@drawable/img_drum_bass"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/drum_bass_1_2" />
+
+        <ImageView
+            android:id="@+id/drum_bass_1_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="136dp"
+            android:src="@drawable/img_drum_bass"
+            app:layout_constraintStart_toStartOf="@+id/drum_3_1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/drum_bass_2_1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="140dp"
+            android:src="@drawable/img_drum_bass"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/drum_bass_2_2" />
+
+        <ImageView
+            android:id="@+id/drum_bass_2_2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="76dp"
+            android:src="@drawable/img_drum_bass"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/drum_bass_1_2" />
+
+        <ImageView
+            android:id="@+id/drum_bass_3_1"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/img_drum_bass"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,48 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <!-- Declare your data variables and import statements here -->
+        <!-- Example:
+        <variable
+            name="viewModel"
+            type="com.example.app.ViewModel" />
+        -->
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_home_bgr">
+
+        <TextView
+            android:id="@+id/infoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to use"
+            android:layout_marginTop="35dp"
+            android:textColor="@color/text_color"
+            app:layout_constraintStart_toStartOf="parent"
+            android:drawableStart="@drawable/ic_back"
+            android:drawablePadding="20dp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:textSize="16dp"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/infoTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabTextColor="@color/text_color"
+            app:layout_constraintTop_toBottomOf="@id/infoTitle"/>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/infoViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@id/infoTabLayout"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.noatnoat.pianoapp.ui.views.CustomHorizontalScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/black">
+
+        <RelativeLayout
+            android:id="@+id/parentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/whiteKeysLayout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button android:id="@+id/keyA0" style="@style/KeyButtonStyle" android:text="A0"/>
+                <Button android:id="@+id/keyB0" style="@style/KeyButtonStyle" android:text="B0"/>
+                <Button android:id="@+id/keyC1" style="@style/KeyButtonStyle" android:text="C1"/>
+                <Button android:id="@+id/keyD1" style="@style/KeyButtonStyle" android:text="D1"/>
+                <Button android:id="@+id/keyE1" style="@style/KeyButtonStyle" android:text="E1"/>
+                <Button android:id="@+id/keyF1" style="@style/KeyButtonStyle" android:text="F1"/>
+                <Button android:id="@+id/keyG1" style="@style/KeyButtonStyle" android:text="G1"/>
+                <Button android:id="@+id/keyA1" style="@style/KeyButtonStyle" android:text="A1"/>
+                <Button android:id="@+id/keyB1" style="@style/KeyButtonStyle" android:text="B1"/>
+                <Button android:id="@+id/keyC2" style="@style/KeyButtonStyle" android:text="C2"/>
+                <Button android:id="@+id/keyD2" style="@style/KeyButtonStyle" android:text="D2"/>
+                <Button android:id="@+id/keyE2" style="@style/KeyButtonStyle" android:text="E2"/>
+                <Button android:id="@+id/keyF2" style="@style/KeyButtonStyle" android:text="F2"/>
+                <Button android:id="@+id/keyG2" style="@style/KeyButtonStyle" android:text="G2"/>
+                <Button android:id="@+id/keyA2" style="@style/KeyButtonStyle" android:text="A2"/>
+                <Button android:id="@+id/keyB2" style="@style/KeyButtonStyle" android:text="B2"/>
+                <Button android:id="@+id/keyC3" style="@style/KeyButtonStyle" android:text="C3"/>
+                <Button android:id="@+id/keyD3" style="@style/KeyButtonStyle" android:text="D3"/>
+                <Button android:id="@+id/keyE3" style="@style/KeyButtonStyle" android:text="E3"/>
+                <Button android:id="@+id/keyF3" style="@style/KeyButtonStyle" android:text="F3"/>
+                <Button android:id="@+id/keyG3" style="@style/KeyButtonStyle" android:text="G3"/>
+                <Button android:id="@+id/keyA3" style="@style/KeyButtonStyle" android:text="A3"/>
+                <Button android:id="@+id/keyB3" style="@style/KeyButtonStyle" android:text="B3"/>
+                <Button android:id="@+id/keyC4" style="@style/KeyButtonStyle" android:text="C4"/>
+                <Button android:id="@+id/keyD4" style="@style/KeyButtonStyle" android:text="D4"/>
+                <Button android:id="@+id/keyE4" style="@style/KeyButtonStyle" android:text="E4"/>
+                <Button android:id="@+id/keyF4" style="@style/KeyButtonStyle" android:text="F4"/>
+                <Button android:id="@+id/keyG4" style="@style/KeyButtonStyle" android:text="G4"/>
+                <Button android:id="@+id/keyA4" style="@style/KeyButtonStyle" android:text="A4"/>
+                <Button android:id="@+id/keyB4" style="@style/KeyButtonStyle" android:text="B4"/>
+                <Button android:id="@+id/keyC5" style="@style/KeyButtonStyle" android:text="C5"/>
+                <Button android:id="@+id/keyD5" style="@style/KeyButtonStyle" android:text="D5"/>
+                <Button android:id="@+id/keyE5" style="@style/KeyButtonStyle" android:text="E5"/>
+                <Button android:id="@+id/keyF5" style="@style/KeyButtonStyle" android:text="F5"/>
+                <Button android:id="@+id/keyG5" style="@style/KeyButtonStyle" android:text="G5"/>
+                <Button android:id="@+id/keyA5" style="@style/KeyButtonStyle" android:text="A5"/>
+                <Button android:id="@+id/keyB5" style="@style/KeyButtonStyle" android:text="B5"/>
+                <Button android:id="@+id/keyC6" style="@style/KeyButtonStyle" android:text="C6"/>
+                <Button android:id="@+id/keyD6" style="@style/KeyButtonStyle" android:text="D6"/>
+                <Button android:id="@+id/keyE6" style="@style/KeyButtonStyle" android:text="E6"/>
+                <Button android:id="@+id/keyF6" style="@style/KeyButtonStyle" android:text="F6"/>
+                <Button android:id="@+id/keyG6" style="@style/KeyButtonStyle" android:text="G6"/>
+                <Button android:id="@+id/keyA6" style="@style/KeyButtonStyle" android:text="A6"/>
+                <Button android:id="@+id/keyB6" style="@style/KeyButtonStyle" android:text="B6"/>
+                <Button android:id="@+id/keyC7" style="@style/KeyButtonStyle" android:text="C7"/>
+                <Button android:id="@+id/keyD7" style="@style/KeyButtonStyle" android:text="D7"/>
+                <Button android:id="@+id/keyE7" style="@style/KeyButtonStyle" android:text="E7"/>
+                <Button android:id="@+id/keyF7" style="@style/KeyButtonStyle" android:text="F7"/>
+                <Button android:id="@+id/keyG7" style="@style/KeyButtonStyle" android:text="G7"/>
+                <Button android:id="@+id/keyA7" style="@style/KeyButtonStyle" android:text="A7"/>
+                <Button android:id="@+id/keyB7" style="@style/KeyButtonStyle" android:text="B7"/>
+                <Button android:id="@+id/keyC8" style="@style/KeyButtonStyle" android:text="C8"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/blackKeysLayout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <Button android:id="@+id/keyASharp0" android:layout_marginStart="48dp" style="@style/SharpkeyButtonStyle" android:text="A#0"/>
+                <Button android:id="@+id/keyCSharp1" android:layout_marginStart="95dp" style="@style/SharpkeyButtonStyle" android:text="C#1"/>
+                <Button android:id="@+id/keyDSharp1" android:layout_marginStart="22dp" style="@style/SharpkeyButtonStyle" android:text="D#1"/>
+                <Button android:id="@+id/keyFSharp1" android:layout_marginStart="96dp" style="@style/SharpkeyButtonStyle" android:text="F#1"/>
+                <Button android:id="@+id/keyGSharp1" android:layout_marginStart="22dp" style="@style/SharpkeyButtonStyle" android:text="G#1"/>
+                <Button android:id="@+id/keyASharp1" android:layout_marginStart="22dp" style="@style/SharpkeyButtonStyle" android:text="A#1"/>
+                <Button android:id="@+id/keyCSharp2" android:layout_marginStart="96dp" style="@style/SharpkeyButtonStyle" android:text="C#2"/>
+                <Button android:id="@+id/keyDSharp2" android:layout_marginStart="20dp" style="@style/SharpkeyButtonStyle" android:text="D#2"/>
+                <Button android:id="@+id/keyFSharp2" android:layout_marginStart="95dp" style="@style/SharpkeyButtonStyle" android:text="F#2"/>
+                <Button android:id="@+id/keyGSharp2" android:layout_marginStart="24dp" style="@style/SharpkeyButtonStyle" android:text="G#2"/>
+                <Button android:id="@+id/keyASharp2" android:layout_marginStart="22dp" style="@style/SharpkeyButtonStyle" android:text="A#2"/>
+                <Button android:id="@+id/keyCSharp3" android:layout_marginStart="95dp" style="@style/SharpkeyButtonStyle" android:text="C#3"/>
+                <Button android:id="@+id/keyDSharp3" android:layout_marginStart="22dp" style="@style/SharpkeyButtonStyle" android:text="D#3"/>
+                <Button android:id="@+id/keyFSharp3" android:layout_marginStart="95dp" style="@style/SharpkeyButtonStyle" android:text="F#3"/>
+                <Button android:id="@+id/keyGSharp3" android:layout_marginStart="22dp" style="@style/SharpkeyButtonStyle" android:text="G#3"/>
+                <Button android:id="@+id/keyASharp3" android:layout_marginStart="22dp" style="@style/SharpkeyButtonStyle" android:text="A#3"/>
+                <Button android:id="@+id/keyCSharp4" android:layout_marginStart="100dp" style="@style/SharpkeyButtonStyle" android:text="C#4"/>
+                <Button android:id="@+id/keyDSharp4" android:layout_marginStart="22dp" style="@style/SharpkeyButtonStyle" android:text="D#4"/>
+                <Button android:id="@+id/keyFSharp4" android:layout_marginStart="95dp" style="@style/SharpkeyButtonStyle" android:text="F#4"/>
+                <Button android:id="@+id/keyGSharp4" android:layout_marginStart="22dp" style="@style/SharpkeyButtonStyle" android:text="G#4"/>
+                <Button android:id="@+id/keyASharp4" android:layout_marginStart="22dp" style="@style/SharpkeyButtonStyle" android:text="A#4"/>
+                <Button android:id="@+id/keyCSharp5" android:layout_marginStart="95dp" style="@style/SharpkeyButtonStyle" android:text="C#5"/>
+                <Button android:id="@+id/keyDSharp5" android:layout_marginStart="22dp" style="@style/SharpkeyButtonStyle" android:text="D#5"/>
+                <Button android:id="@+id/keyFSharp5" android:layout_marginStart="95dp" style="@style/SharpkeyButtonStyle" android:text="F#5"/>
+                <Button android:id="@+id/keyGSharp5" android:layout_marginStart="22dp" style="@style/SharpkeyButtonStyle" android:text="G#5"/>
+                <Button android:id="@+id/keyASharp5" android:layout_marginStart="22dp" style="@style/SharpkeyButtonStyle" android:text="A#5"/>
+                <Button android:id="@+id/keyCSharp6" android:layout_marginStart="95dp" style="@style/SharpkeyButtonStyle" android:text="C#6"/>
+                <Button android:id="@+id/keyDSharp6" android:layout_marginStart="22dp" style="@style/SharpkeyButtonStyle" android:text="D#6"/>
+                <Button android:id="@+id/keyFSharp6" android:layout_marginStart="94dp" style="@style/SharpkeyButtonStyle" android:text="F#6"/>
+                <Button android:id="@+id/keyGSharp6" android:layout_marginStart="22dp" style="@style/SharpkeyButtonStyle" android:text="G#6"/>
+                <Button android:id="@+id/keyASharp6" android:layout_marginStart="22dp" style="@style/SharpkeyButtonStyle" android:text="A#6"/>
+                <Button android:id="@+id/keyCSharp7" android:layout_marginStart="100dp" style="@style/SharpkeyButtonStyle" android:text="C#7"/>
+                <Button android:id="@+id/keyDSharp7" android:layout_marginStart="20dp" style="@style/SharpkeyButtonStyle" android:text="D#7"/>
+                <Button android:id="@+id/keyFSharp7" android:layout_marginStart="94dp" style="@style/SharpkeyButtonStyle" android:text="F#7"/>
+                <Button android:id="@+id/keyGSharp7" android:layout_marginStart="25dp" style="@style/SharpkeyButtonStyle" android:text="G#7"/>
+                <Button android:id="@+id/keyASharp7" android:layout_marginStart="22dp" style="@style/SharpkeyButtonStyle" android:text="A#7"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </com.noatnoat.pianoapp.ui.views.CustomHorizontalScrollView>
+</layout>

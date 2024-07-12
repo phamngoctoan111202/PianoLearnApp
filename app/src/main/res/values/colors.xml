@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#99000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#171717</color>
+    <color name="blue">#0A9FFF</color>
+
+
+    <color name="colorPrimary">#800080</color>
+    <color name="colorPrimaryDark">#800080</color>
+    <color name="colorSecondary">#FFFFFF</color>
+    <color name="colorCancle">#404040</color>
+
+    <color name="color_background">#F6F7FB</color>
+    <color name="color_background_secondary">#060606</color>
+
+    <color name="button_disabled">#8C8C92</color>
+    <color name="button_enabled">#800080</color>
+    <color name="button_background">#323232</color>
+
+    <color name="divider_color">#DCDDE0</color>
+
+
+    <color name="text_color">#FFFFFF</color>
+    <color name="text_color_secondary">#14FFFFFF</color>
+
+    <color name="dialog_background">#262626</color>
+
+    <color name="song_list_color">#0A9FFF</color>
+    <color name="seekbar_color">#0A9FFF</color>
+
+</resources>
